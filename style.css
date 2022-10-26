@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto+Slab:wght@700&display=swap');
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/*CSS do Cabeçalho*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.img-cabecalho {
+    height: 74px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.item-navegacao {
+    color: #FFF2E7;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.item-navegacao:hover {
+text-decoration: underline;
+} 
+
+/*CSS do Main*/
+
+.conteudo {
+    border-top: 0.2px solid #FFF2E7;
+    margin-bottom: 40px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.titulo-principal {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.subtitulo {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.botao {
+    font-family: 'ABeeZee', sans-serif;
+    width: 185px;
+    height: 35px;
+    background-color: #ECD6C4;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 19px;
+}
+
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+
+.titulo-secundario {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.paragrafo {
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+/*CSS do Footer*/
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.img-final {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0;
+}
